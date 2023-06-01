@@ -1,0 +1,50 @@
+<?php
+require ("conexion.php");
+require('vendor/autoload.php');
+
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\IOFactory;
+
+$consulta="Select * from medico WHERE estatus = 1";
+$datos = $conexion->query($consulta);
+
+$excel = new Spreadsheet();
+$hojaActiva =  $excel->getActiveSheet();
+$hojaActiva->setTitle("Grupo");
+
+$hojaActiva->setCellValue('A1', 'nombre');
+$hojaActiva->setCellValue('B1', 'aPaterno');
+$hojaActiva->setCellValue('C1', 'aMaterno');
+$hojaActiva->setCellValue('D1', 'numTelefono');
+$hojaActiva->setCellValue('E1', 'correoElectronico');
+$hojaActiva->setCellValue('F1', 'especialidad');
+
+
+
+$Fila = 2;
+
+while($rows = $datos->fetch_assoc())
+{
+    $hojaActiva->getColumnDimension('A')->setWidth(20);
+    $hojaActiva->setCellValue('A'.$Fila, $rows['nombre']);
+    $hojaActiva->getColumnDimension('B')->setWidth(20);
+    $hojaActiva->setCellValue('B'.$Fila, $rows['aPaterno']);
+    $hojaActiva->getColumnDimension('C')->setWidth(20);
+    $hojaActiva->setCellValue('C'.$Fila, $rows['aMaterno']);
+    $hojaActiva->getColumnDimension('D')->setWidth(20);
+    $hojaActiva->setCellValue('D'.$Fila, $rows['numTelefono']);
+    $hojaActiva->getColumnDimension('E')->setWidth(20);
+    $hojaActiva->setCellValue('E'.$Fila, $rows['correoElectronico']);
+    $hojaActiva->getColumnDimension('F')->setWidth(20);
+    $hojaActiva->setCellValue('F'.$Fila, $rows['especialidad']);
+    $Fila++;
+}
+
+header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+header('Content-Disposition: attachment;filename="medico.xlsx"');
+header('Cache-Control: max-age=0');
+
+$writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($excel, 'Xlsx');
+$writer->save('php://output');
+exit;
+    ?>

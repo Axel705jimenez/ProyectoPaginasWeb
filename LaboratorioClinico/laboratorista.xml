@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+ <laboratorista>
+  <nombre>i</nombre>
+  <aPaterno>i</aPaterno>
+  <aMaterno>i</aMaterno>
+  <sexo>i</sexo>
+  <numTelefono>3</numTelefono>
+  <correoElectronico>i</correoElectronico>
+  <especialidad>i</especialidad>
+  <numLicencia>0</numLicencia>
+  <expLaboral>i</expLaboral>
+ </laboratorista>
+ <laboratorista>
+  <nombre>oi</nombre>
+  <aPaterno>oio</aPaterno>
+  <aMaterno>io</aMaterno>
+  <sexo>io</sexo>
+  <numTelefono>0</numTelefono>
+  <correoElectronico>io</correoElectronico>
+  <especialidad>i</especialidad>
+  <numLicencia>0</numLicencia>
+  <expLaboral>oi</expLaboral>
+ </laboratorista>
+ <laboratorista>
+  <nombre></nombre>
+  <aPaterno></aPaterno>
+  <aMaterno></aMaterno>
+  <sexo></sexo>
+  <numTelefono>54</numTelefono>
+  <correoElectronico></correoElectronico>
+  <especialidad></especialidad>
+  <numLicencia>777</numLicencia>
+  <expLaboral></expLaboral>
+ </laboratorista>
+</tabla>

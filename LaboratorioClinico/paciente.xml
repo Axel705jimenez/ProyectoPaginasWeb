@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+ <paciente>
+  <nombre>pop</nombre>
+  <aPaterno>opo</aPaterno>
+  <aMaterno>po</aMaterno>
+  <sexo>pop</sexo>
+  <calle>o</calle>
+  <colonia>pop</colonia>
+  <numeroExt>0</numeroExt>
+  <ciudad>opo</ciudad>
+  <estado>pop</estado>
+  <correoElectronico>0</correoElectronico>
+ </paciente>
+ <paciente>
+  <nombre>pop</nombre>
+  <aPaterno>opo</aPaterno>
+  <aMaterno>po</aMaterno>
+  <sexo>pop</sexo>
+  <calle>o</calle>
+  <colonia>pop</colonia>
+  <numeroExt>0</numeroExt>
+  <ciudad>o</ciudad>
+  <estado>pop</estado>
+  <correoElectronico>0</correoElectronico>
+ </paciente>
+ <paciente>
+  <nombre>oo</nombre>
+  <aPaterno>po</aPaterno>
+  <aMaterno>po</aMaterno>
+  <sexo>po</sexo>
+  <calle>po</calle>
+  <colonia>po</colonia>
+  <numeroExt>0</numeroExt>
+  <ciudad>p</ciudad>
+  <estado>op</estado>
+  <correoElectronico>0</correoElectronico>
+ </paciente>
+</tabla>

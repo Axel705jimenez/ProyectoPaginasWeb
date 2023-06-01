@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+ <medico>
+  <nombre>o</nombre>
+  <aPaterno>ioi</aPaterno>
+  <aMaterno>oi</aMaterno>
+  <especialidad>o</especialidad>
+  <numLicencia/>
+  <correoElectronico>ojkwadnjkw</correoElectronico>
+ </medico>
+ <medico>
+  <nombre>po</nombre>
+  <aPaterno>pop</aPaterno>
+  <aMaterno>op</aMaterno>
+  <especialidad>op</especialidad>
+  <numLicencia/>
+  <correoElectronico>op</correoElectronico>
+ </medico>
+</tabla>

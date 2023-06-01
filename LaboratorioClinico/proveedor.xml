@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+ <proveedor>
+  <nombreEmpresa>Po</nombreEmpresa>
+  <calle>Po</calle>
+  <colonia>po</colonia>
+  <numExt>0</numExt>
+  <ciudad>po</ciudad>
+  <estado>op</estado>
+  <correoElectronico> op</correoElectronico>
+  <personaContacto> o</personaContacto>
+ </proveedor>
+ <proveedor>
+  <nombreEmpresa>ji</nombreEmpresa>
+  <calle>ji</calle>
+  <colonia>ji</colonia>
+  <numExt>0</numExt>
+  <ciudad>ji</ciudad>
+  <estado>ji</estado>
+  <correoElectronico> ji</correoElectronico>
+  <personaContacto> jij</personaContacto>
+ </proveedor>
+ <proveedor>
+  <nombreEmpresa>ji</nombreEmpresa>
+  <calle>ji</calle>
+  <colonia>ji</colonia>
+  <numExt>0</numExt>
+  <ciudad>ji</ciudad>
+  <estado>ji</estado>
+  <correoElectronico> ji</correoElectronico>
+  <personaContacto> jij</personaContacto>
+ </proveedor>
+ <proveedor>
+  <nombreEmpresa>ji</nombreEmpresa>
+  <calle>ji</calle>
+  <colonia>ji</colonia>
+  <numExt>0</numExt>
+  <ciudad>ji</ciudad>
+  <estado>ji</estado>
+  <correoElectronico> ji</correoElectronico>
+  <personaContacto> jij</personaContacto>
+ </proveedor>
+ <proveedor>
+  <nombreEmpresa>ji</nombreEmpresa>
+  <calle>ji</calle>
+  <colonia>ji</colonia>
+  <numExt>0</numExt>
+  <ciudad>ji</ciudad>
+  <estado>ji</estado>
+  <correoElectronico> ji</correoElectronico>
+  <personaContacto> jij</personaContacto>
+ </proveedor>
+ <proveedor>
+  <nombreEmpresa>ui</nombreEmpresa>
+  <calle>ui</calle>
+  <colonia>u</colonia>
+  <numExt>0</numExt>
+  <ciudad>u</ciudad>
+  <estado>iu</estado>
+  <correoElectronico> nn</correoElectronico>
+  <personaContacto> nui</personaContacto>
+ </proveedor>
+</tabla>

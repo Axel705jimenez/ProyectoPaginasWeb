@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+ <resultado>
+  <valorNumerico>57</valorNumerico>
+  <observaciones>oi</observaciones>
+  <estado>oi</estado>
+ </resultado>
+ <resultado>
+  <valorNumerico>7</valorNumerico>
+  <observaciones>7</observaciones>
+  <estado>7</estado>
+ </resultado>
+</tabla>
